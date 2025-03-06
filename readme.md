@@ -1,8 +1,8 @@
-# Running the experiments for the "On the Usefulness of the Fit-on-the-Test View on Evaluating Calibration of Classifiers"
+# Running the experiments for the "On the usefulness of the fit-on-test view on evaluating calibration of classifiers" ([link to article](https://doi.org/10.1007/s10994-024-06652-6))
 
 ## 0. Preliminary
 
-To prepare the environment, use "environment.yml" as following:
+To prepare the environment, use "environment.yml" as follows:
 
 ```
 conda env create -f environment.yml
@@ -10,13 +10,13 @@ conda env create -f environment.yml
 
 ## 1. Experiments on the Synthetic, Pseudo-Real and Real Data
 
-Experiments code is divided into folders: "Experiments_Synthetic", "Experiments_Pseudo" and "Experiments_Real". 
-To run experiments read the "readme.md" from each folder.
+The experiment code is divided into folders: "Experiments_Synthetic", "Experiments_Pseudo", and "Experiments_Real". 
+Read the "readme.md" in each folder to run experiments.
 
 
 ## 2. Preprocessing Data
 
-The preprocessing of data is done separately in each folder.
+The data is preprocessed separately in each folder.
 
 ## 3. Generating Figures and Tables for the article and supplementary
 
@@ -25,3 +25,9 @@ The generation of tables and figures of synthetic experiments in the main articl
 The generation of tables and figures of pseudo-real experiments in the main article and supplementary are done with notebooks that have the name "2. Pseudo-real - ...".
 The generation of tables and figures of real experiments in the main article and supplementary are done with notebooks that have the name "3. Real - ...".
 The generation of tables and figures of other stuff in the main article and supplementary are done with notebooks that have the name "4. Other - ...".
+
+## 4. Citation
+
+```
+Kängsepp, M., Valk, K. & Kull, M. On the usefulness of the fit-on-test view on evaluating calibration of classifiers. Mach Learn 114, 105 (2025). https://doi.org/10.1007/s10994-024-06652-6
+```
